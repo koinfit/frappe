@@ -4,16 +4,16 @@ frappe.ui.misc.about = function() {
 		var d = new frappe.ui.Dialog({title: __('Frappe Framework')});
 
 		$(d.body).html(repl("<div>\
-		<p>"+__("Open Source Applications for the Web")+"</p>  \
+		<p>"+__("ACCOUNTING SOFTWARE FOR SME")+"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
-			Website: <a href='https://frappe.io' target='_blank'>https://frappe.io</a></p>\
+			Website: <a href='https://koinfit.com' target='_blank'>https://koinfit.com</a></p>\
 		<p><i class='fa fa-github fa-fw'></i>\
-			Source: <a href='https://github.com/frappe' target='_blank'>https://github.com/frappe</a></p>\
+			Source: <a href='https://koinfit.com' target='_blank'>https://koinfit.com</a></p>\
 		<hr>\
 		<h4>Installed Apps</h4>\
 		<div id='about-app-versions'>Loading versions...</div>\
 		<hr>\
-		<p class='text-muted'>&copy; Frappe Technologies Pvt. Ltd and contributors </p> \
+		<p class='text-muted'>&copy; Analog Innovation Pvt. Ltd </p> \
 		</div>", frappe.app));
 
 		frappe.ui.misc.about_dialog = d;
